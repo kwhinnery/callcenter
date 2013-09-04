@@ -1,0 +1,16 @@
+{
+    "name": "Speedy Loans",
+    "description": "A demo call center application, powered by Twilio and Parse.",
+    "version": "0.1",
+    "app": {
+        "background": {
+            "scripts": ["background.js"]
+        }
+    },
+    "icons": {
+        "16": "img/speedy16.png", 
+        "128": "img/speedy128.png", 
+        "256": "img/speedy256.png",
+        "512": "img/speedy512.png"
+    }
+}

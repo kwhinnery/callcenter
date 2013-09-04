@@ -1,0 +1,90 @@
+/* Our main brand font face */
+@font-face {
+    font-family: 'Exo';
+    src: url('../font/Exo-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Exo';
+    src: url('../font/Exo-Bold.otf');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Exo';
+    src: url('../font/Exo-Italic.otf');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Exo';
+    src: url('../font/Exo-BoldItalic.otf');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Global styles */
+html, body, * {
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+html, body {
+    height:100%;
+}
+
+h1, h2, h3, .brand, .brand span {
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-size:42px;
+    font-style:italic;
+}
+
+h2 {
+    font-size:32px;
+}
+
+h3 {
+    font-size:24px;
+}
+
+/* Shared styles */
+.green {
+    color:#86c351;
+}
+
+/* Region specific styles */
+#login {
+    margin-top:20px;
+    text-align: center;
+}
+
+#login img {
+    border-radius:5px;
+}
+
+#login h1 {
+    margin:10px 0 10px 0;
+    padding:0;
+}
+
+#login input {
+    width:240px;
+}
+
+#main {
+    width:600px;
+    margin:20px auto 0 auto;
+}
+
+#welcome-text {
+    margin:10px 10px 0 0;
+    padding:0 10px 10px 0;
+}
+
+#agentUI {
+    padding:0 20px;
+}

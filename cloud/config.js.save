@@ -1,0 +1,6 @@
+module.exports = {
+    twilio: {
+        accountSid:'your twilio account SID',
+        authToken:'your twilio auth token'
+    }
+};

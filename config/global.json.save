@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "CallCenter": {
+            "applicationId": "CHANGE_ME", 
+            "masterKey": "CHANGE_ME"
+        }, 
+        "_default": {
+            "link": "CallCenter"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.2.9"
+    }
+}
